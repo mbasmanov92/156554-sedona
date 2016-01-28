@@ -5,8 +5,194 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive">Базовый HTML и CSS</a>».</p>
-
+    <header class="main-header">
+	  <div class="container">
+	    <nav class="main-navigation">
+		  <ul>
+		    <li>
+			 <a href="#">ИНФОРМАЦИЯ</a>
+			</li>
+			<li>
+			 <a href="#">ФОТО И ВИДЕО</a>
+			</li>
+			<li>
+			 <a href="#">КАРТА ШТАТА</a>
+			</li>
+			<li>
+			 <a href="#">ГОСТИНИЦА</a>
+			</li>
+		  </ul>
+		</nav>
+	  </div>
+	</header>
+	<main class="container">
+	  <div class="welcome">
+	    <span>WELCOME</span>
+		<span>-o the gorgeous-</span>
+		<strong>SEDONA</strong>
+		<q>Because the Grand Canyun suks!</q>
+	  </div>
+	  <div class="specification">
+	    <div class="info">
+		  <p>
+		    СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>
+            ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!
+          </p>
+          <p>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</p>		  
+		</div>
+		<div class="fact">
+		  <p>
+		    НАСТОЯЩИЙ<br>
+			ГОРОДОК
+		  </p>
+		  <p>-№1-</p>
+		  <p>
+		    СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,<br>
+			ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ
+		  </p>
+		</div>
+		<div class="foto">
+		  <img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
+		</div>
+		<figure class="info">
+		  <img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
+		  <figcaption>ЖИЛЬЕ</figcaption>
+		  <p>
+		    РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ<br>
+			МОТЕЛЕ, ВСЕ КАК В КИНО!
+		  </p>
+		</figure>
+		<figure class="info">
+		  <img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
+		  <figcaption>ЕДА</figcaption>
+		  <p>
+		    ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР,<br>
+			ВЫ НЕ РАЗОЧАРУЕТЕСЬ!
+		  </p>
+		</figure>
+		<figure class="info">
+		  <img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
+		  <figcaption>СЫВЕНИРЫ</figcaption>
+		  <p>
+		    НЕ ТОЛЬКО КИТАЙСКОГО,<br>
+			НО И МЕСТНОГО ПРОИЗВОДСТВА!
+		  </p>
+		</figure>
+		<div class="foto">
+		  <img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
+		</div>
+		<div class="fact">
+		  <p>
+		    ТАМ ЕСТЬ<br>
+			МОСТ ДЬЯВОЛА
+		  </p>
+		  <p>-№2-</p>
+		  <p>
+		    ДА, ПО НЕМУ МОЖНО ПРОЙТИ!<br>
+			ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ
+		  </p>
+		</div>
+		<div class="fact">
+		  <p>
+		    НЕБОЛЬШАЯ<br>
+			ПЛОЩАДЬ
+		  </p>
+		  <p>-№3-</p>
+		  <p>
+		    ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ<br>
+			НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО
+		  </p>
+		</div>
+		<div class="fact">
+		  <p>
+		    КРАСИВАЯ<br>
+			ДОРОГА
+		  </p>
+		  <p>-№4-</p>
+		  <p>
+		    ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br>
+			НЕ СКУЧНО
+		  </p>
+		</div>
+		<div class="fact">
+		  <p>
+		    МАЛО<br>
+			ТУРИСТОВ
+		  </p>
+		  <p>-№5-</p>
+		  <p>
+		    БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И<br>
+			ТОЛПИТСЯ ТАМ
+		  </p>
+		</div>
+	  </div>
+	  <div class="hostel-search">
+	    <div class="info">
+		  <p>ЗАИНТЕРЕСОВАЛИСЬ?</p>
+          <p>
+		    УКАЖИТЕ ПРЕДПОЛОГАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br>
+		    И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ
+		  </p>		  
+		</div>
+		<div class="foto">
+		  <img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
+		</div>
+		<div class="search-form">
+		  <div class="search-form-title">
+		    ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
+		  </div>
+		  <form action="#" method="post">
+            <div class="search-form-date-input">
+			  <p>ДАТА ЗАЕЗДА:</p>
+			  <select name="date-input">
+                <option value="24.04.16">24 АПРЕЛЯ 2016</option>
+              </select>
+		    </div>
+			<div class="search-form-date-output">
+			  <p>ДАТА ВЫЕЗДА:</p>
+			  <select name="date-output">
+                <option value="04.07.16">4 ИЮЛЯ 2016</option>
+              </select>
+		    </div>
+			<div class="adult">
+			  <p>ВЗРОСЛЫЕ:</p>
+			  <button class="btn people--">-</button>
+			  <div class="adult-number">
+			    2
+			  </div>
+			  <button class="btn people++">+</button>
+			</div>
+			<div class="child">
+			  <p>ДЕТИ:</p>
+			  <button class="btn people--">-</button>
+			  <div class="child-number">
+			    0
+			  </div>
+			  <button class="btn people++">+</button>
+			</div>
+            <button class="btn" type="submit">НАЙТИ</button>
+          </form>
+		</div>
+	  </div>
+	</main>
+    <footer class="main-footer">
+	  <div class="container">
+	    <div class="footer-contacts">
+		  #VISITSEDONA
+		</div>
+		<div class="footer-social">
+		  <a class="btn social-btn-tw" href="#">Твиттер</a>
+		  <a class="btn social-btn-fb" href="#">Фейсбук</a>
+		  <a class="btn social-btn-yt" href="#">Ютуб</a>
+		</div>
+		<div class="footer-copyright">
+          <p>WEBSITE BY</p>
+          <a href="https://htmlacademy.ru">
+		    <img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
+			html academy
+		  </a>
+		</div>
+	  </div>
+	</footer>
   </body>
 </html>
