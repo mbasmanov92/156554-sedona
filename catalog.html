@@ -52,11 +52,13 @@
 						<label for="apartments">Апартаменты</label>
 						<input type="checkbox" id="apartments" name="apartments" value="1">
 					</fieldset>
-					<div class="day-price">
-						<label for="price-scale">Стоимость в сутки(р)</label>
-						<div id="price-scale">
-							<output name="min-price">От 0</output>
-							<output name="max-price">До 3000</output>
+					<fieldset>
+						<legend>Стоимость в сутки(р)</legend>
+						<div class="range-number">
+							<label for="min-price">От</label>
+							<input type="number" id="min-price" name="min-price" value="0">
+							<label for="max-price">До</label>
+							<input type="number" id="max-price" name="max-price" value="3000">
 						</div>
 						<div class="range-slider">
 							<div class="range">
@@ -67,15 +69,15 @@
 							</div>
 						</div>
 						<input type="submit" value="Показать">
-					</div>
+					</fieldset>
 				</form>
 			</div>
 			<div class="hostel-list">
 				<div class="hostel-list-title">
 					<label for="hostel-number">Найдено:</label>
-					<output id="hostel-number" name="hostel-number">3</output>
-					<fieldset>
-						<legend>Сортировка:</legend>
+					<input type="text" id="hostel-number" name="hostel-number" value="3" disabled>
+					<div class="sorting">
+						<span class="sorting-title">Сортировка:</span>
 						<a href="#">По цене</a>
 						<a href="#">По типу</a>
 						<a href="#">По рейтингу</a>
@@ -85,22 +87,17 @@
 						<a href="#">
 							<img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
 						</a>
-					</fieldset>
+					</div>
 				</div>
 				<div class="hostel-list-items">
 					<div class="hostel-list-item">
 						<a href="#">
 							<img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
 						</a>
-						<label for="short-description-1">Amara resort & SPA</label>
-						<div id="short-description-1">
-							Гостиница
-							От 3500 р.
-						</div>
-						<div>
-							<a class="btn" href="#">Подробнее</a>
-							<a class="btn" href="#">Забронировать</a>
-						</div>
+						<b class="feature-title">Amara resort & SPA</b>
+						<span>Гостиница От 3500 р.</span>
+						<a class="btn" href="#">Подробнее</a>
+						<a class="btn" href="#">Забронировать</a>
 						<div class="rating">
 							<div class="rating-star">
 								<img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
@@ -117,15 +114,10 @@
 						<a href="#">
 							<img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
 						</a>
-						<label for="short-description-2">Desert quail INN</label>
-						<div id="short-description-2">
-							Мотель
-							От 2000 р.
-						</div>
-						<div>
-							<a class="btn" href="#">Подробнее</a>
-							<a class="btn" href="#">Забронировать</a>
-						</div>
+						<b class="feature-title">Desert quail INN</b>
+						<span>Мотель От 2000 р.</span>
+						<a class="btn" href="#">Подробнее</a>
+						<a class="btn" href="#">Забронировать</a>
 						<div class="rating">
 							<div class="rating-star">
 								<img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
@@ -140,15 +132,10 @@
 						<a href="#">
 							<img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
 						</a>
-						<label for="short-description-3">Villas at poco diablo</label>
-						<div id="short-description-3">
-							Апартаменты
-							От 4000 р.
-						</div>
-						<div>
-							<a class="btn" href="#">Подробнее</a>
-							<a class="btn" href="#">Забронировать</a>
-						</div>
+						<b class="feature-title">Villas at poco diablo</b>
+						<span>Апартаменты От 4000 р.</span>
+						<a class="btn" href="#">Подробнее</a>
+						<a class="btn" href="#">Забронировать</a>
 						<div class="rating">
 							<div class="rating-star">
 								<img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
@@ -165,21 +152,27 @@
 		</main>
 		<footer class="main-footer">
 			<div class="container">
-				<a class="footer-contacts" href="#">
-					#Visitsedona
-				</a>
-				<div class="footer-social">
-					<a class="btn social-btn-tw" href="#">Twitter</a>
-					<a class="btn social-btn-fb" href="#">Facebook</a>
-					<a class="btn social-btn-yt" href="#">YouTube</a>
-				</div>
-				<div class="footer-copyright">
-					<span>Website by</span>
-					<a href="https://htmlacademy.ru">
-						<img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
+				<div class="footer-colum">
+					<a class="footer-contacts" href="#">
+						#Visitsedona
 					</a>
+				</div>
+				<div class="footer-colum">
+					<div class="footer-social">
+						<a class="btn social-btn-tw" href="#">Twitter</a>
+						<a class="btn social-btn-fb" href="#">Facebook</a>
+						<a class="btn social-btn-yt" href="#">YouTube</a>
+					</div>
+				</div>
+				<div class="footer-colum">
+					<div class="footer-copyright">
+						<span>Website by</span>
+						<a href="https://htmlacademy.ru">
+							<img src="img/photo-1.jpg" width="286" height="164" alt="картиночка потерялась, печаль:(">
+						</a>
+					</div>
 				</div>
 			</div>
 		</footer>
 	</body>
-</html>							
+</html>	
