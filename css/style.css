@@ -1,0 +1,50 @@
+body
+{
+    font-family: 'PT Sans Bold';
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+
+    color: #000;
+}
+
+.social-btn-tw
+{
+    background-image: url('../img/footer-icon-twitter.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.social-btn-fb
+{
+    background-image: url('../img/footer-icon-facebook.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.social-btn-yt
+{
+    background-image: url('../img/footer-icon-youtube.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.main-navigation
+{
+    font-family: 'PT Sans Bold';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+
+    color: #000;
+}
+
+.feature-title
+{
+    font-family: 'PT Sans Bold';
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 21px;
+
+    color: #fff;
+}
