@@ -8,6 +8,84 @@ body
     color: #000;
 }
 
+.clearfix::after
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+
+    opacity: .7;
+    background-color: yellow;
+}
+
+.main-navigation
+{
+    width: 1200px;
+    margin: 0 auto;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.left-side
+{
+    float: left;
+
+    opacity: .7;
+    background-color: green;
+}
+
+.right-side
+{
+    float: right;
+
+    opacity: .7;
+    background-color: green;
+}
+
+.menu-logo/*лого не центруется посередине, хотя сделал margin слева и справа авто, не могу понять в чем ошибка, аналогично и с welcome */
+{
+    width: 130px;
+    height: 70px;
+    margin: 0 auto;
+
+    opacity: .7;
+    background-color: green;
+}
+
+.introduction
+{
+    width: 1200px;
+    height: 510px;
+
+    background-image: url('../img/index-introduction-background.jpg');
+}
+
+.welcome
+{
+    width: 460px;
+    height: 350px;
+    margin: 0 auto;
+
+    opacity: .7;
+    background-color: green;
+}
+
+.info
+{
+    margin: 0 auto;
+
+    opacity: .7;
+    background-color: red;
+}
+
 .social-btn-tw
 {
     background-image: url('../img/footer-icon-twitter.png');
