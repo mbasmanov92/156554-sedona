@@ -149,37 +149,37 @@
 					<p>
 						Укажите предпологаемые даты поездки,<br>
 						И мы покажем вам лучшие предложения гостиниц в Седоне
-					</p>		  
+					</p>
+					<div class="search-form">
+						<a class="search-form-title">
+							Поиск гостиницы в Седоне
+						</a>
+						<div class="search-form-container">
+							<form class="search-form-content" action="#" method="post">
+								<label for="search-form-input">Дата заезда:</label>
+								<input type="date" id="search-form-input" name="search-form-input" value="2016-04-24">
+								<img class="calendar-icon" src="img/index-calendar-icon.png" width="21" height="22" alt="Календарь">
+								<label for="search-form-output">Дата заезда:</label>
+								<input type="date" id="search-form-output" name="search-form-output" value="2016-07-04">
+								<img class="calendar-icon" src="img/index-calendar-icon.png" width="21" height="22" alt="Календарь">
+								<div class="counter">
+									<label for="adult">Взрослые:</label>
+									<button class="btn people--">-</button>
+									<input type="number" id="adult" value="2">							
+									<button class="btn people++">+</button>
+								</div>
+								<div class="counter">
+									<label for="children">Дети:</label>
+									<button class="btn people--">-</button>
+									<input type="number" id="children" value="0">							
+									<button class="btn people++">+</button>
+								</div>
+								<button class="btn" type="submit">Найти</button>
+							</div>
+						</form>
+					</div>
 				</div>
-				<div>
-					<img class="background" src="img/index-map.jpg" width="1200" height="595" alt="Карта">
-				</div>
-				<div class="search-form">
-					<a class="search-form-title">
-						Поиск гостиницы в Седоне
-					</a>
-					<form class="search-form-content" action="#" method="post">
-						<label for="search-form-input">Дата заезда:</label>
-						<input type="date" id="search-form-input" name="search-form-input" value="2016-04-24">
-						<img class="calendar-icon" src="img/index-calendar-icon.png" width="21" height="22" alt="Календарь">
-						<label for="search-form-output">Дата заезда:</label>
-						<input type="date" id="search-form-output" name="search-form-output" value="2016-07-04">
-						<img class="calendar-icon" src="img/index-calendar-icon.png" width="21" height="22" alt="Календарь">
-						<div class="counter">
-							<label for="adult">Взрослые:</label>
-							<button class="btn people--">-</button>
-							<input type="number" id="adult" value="2">							
-							<button class="btn people++">+</button>
-						</div>
-						<div class="counter">
-							<label for="children">Дети:</label>
-							<button class="btn people--">-</button>
-							<input type="number" id="children" value="0">							
-							<button class="btn people++">+</button>
-						</div>
-						<button class="btn" type="submit">Найти</button>
-					</form>
-				</div>
+				<div index-map></div>
 			</div>
 		</main>
 		<footer class="main-footer">
