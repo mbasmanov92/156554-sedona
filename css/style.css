@@ -409,7 +409,8 @@ body
     font-size: 14px;
     font-weight: bold;
     line-height: 26px;
-
+	display: inline-block;
+	margin: 6px 0px;
     float: left;
 
     text-transform: uppercase;
@@ -420,7 +421,6 @@ body
     font-size: 14px;
     font-weight: bold;
     line-height: 1.3;
-
     float: right;
 
     text-transform: uppercase;
@@ -480,6 +480,7 @@ body
 {
     width: 229px;
     margin-bottom: 55px;
+	float: left;
 }
 
 .counter input[type='text']
