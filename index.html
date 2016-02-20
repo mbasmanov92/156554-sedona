@@ -11,7 +11,7 @@
 		<div class="shadow-container">
 			<header class="main-header">
 				<div class="container">
-					<nav class="main-navigation clearfix">
+					<nav class="main-navigation active clearfix">
 						<ul class="left-side">
 							<li>
 								<a href="#">Информация</a>
@@ -41,7 +41,7 @@
 				<div class="specification">
 					<div class="info">
 						<b class="info-title">
-							Седона - небольшой городок в Аризоне,<br>
+							Седона &mdash; небольшой городок в Аризоне,<br>
 							Заслуживающий большего!
 						</b>
 						<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>		  
@@ -65,7 +65,7 @@
 					<div class="features-row clearfix">
 						<div class="feature feature-with-illustration">
 							<div class="illustration">
-								<img src="img/index-house.jpg" width="74" height="76" alt="Дом">
+								<img src="img/index-house.png" width="74" height="76" alt="Дом">
 							</div>
 							<b class="feature-title">Жилье</b>
 							<p class="feature-info">
@@ -75,7 +75,7 @@
 						</div>
 						<div class="feature feature-with-illustration">
 							<div class="illustration">
-								<img src="img/index-burger.jpg" width="75" height="76" alt="Гамбургер">
+								<img src="img/index-burger.png" width="75" height="76" alt="Гамбургер">
 							</div>
 							<b class="feature-title">Еда</b>
 							<p class="feature-info">
@@ -85,7 +85,7 @@
 						</div>
 						<div class="feature feature-with-illustration">
 							<div class="illustration">
-								<img src="img/index-souvenir.jpg" width="64" height="76" alt="Сувенир">
+								<img src="img/index-souvenir.png" width="64" height="76" alt="Сувенир">
 							</div>
 							<b class="feature-title">Сувениры</b>
 							<p class="feature-info">
@@ -160,27 +160,35 @@
 						</a>
 						<div class="search-form-container">
 							<form class="search-form-content" action="#" method="post">
-								<label for="search-form-input">Дата заезда:</label>
-								<input type="date" id="search-form-input" name="search-form-input" value="2016-04-24">
-								<img class="calendar-icon" src="img/index-calendar-icon.png" width="21" height="22" alt="Календарь">
-								<label for="search-form-output">Дата заезда:</label>
-								<input type="date" id="search-form-output" name="search-form-output" value="2016-07-04">
-								<img class="calendar-icon" src="img/index-calendar-icon.png" width="21" height="22" alt="Календарь">
-								<div class="counter">
+								<div class="input-form clearfix">
+									<label for="search-form-input">Дата заезда:</label>
+									<input type="text" id="search-form-input" name="search-form-input" value="24 апреля 2016">
+									<span class="index-calendar"></span>
+								</div>
+								<div class="input-form clearfix">
+									<label for="search-form-output">Дата выезда:</label>
+									<input type="text" id="search-form-output" name="search-form-output" value="4 июля 2016">
+									<span class="index-calendar"></span>
+								</div>
+								<div class="counter clearfix">
 									<label for="adult">Взрослые:</label>
-									<button class="btn people--">-</button>
-									<input type="number" id="adult" value="2">							
-									<button class="btn people++">+</button>
+									
+									<button class="counter-btn btn-minus"></button>
+									<input type="text" id="adult" value="2">							
+									<button class="counter-btn btn-plus"></button>
+									
 								</div>
-								<div class="counter">
+								<div class="counter clearfix">
 									<label for="children">Дети:</label>
-									<button class="btn people--">-</button>
-									<input type="number" id="children" value="0">							
-									<button class="btn people++">+</button>
+									
+									<button class="counter-btn btn-minus"></button>
+									<input type="text" id="children" value="0">							
+									<button class="counter-btn btn-plus"></button>
+									
 								</div>
-								<button class="btn" type="submit">Найти</button>
-							</div>
-						</form>
+								<button class="btn-blue search-btn" type="submit">Найти</button>				
+							</form>
+						</div>
 					</div>
 					<div class="index-map"></div>
 				</div>
@@ -194,17 +202,15 @@
 					</div>
 					<div class="footer-colum">
 						<div class="footer-social">
-							<a class="social-btn social-btn-tw" href="#">Twitter</a>
-							<a class="social-btn social-btn-fb" href="#">Facebook</a>
-							<a class="social-btn social-btn-yt" href="#">YouTube</a>
+							<a class="btn-blue social-btn social-btn-tw" href="#">Twitter</a>
+							<a class="btn-blue social-btn social-btn-fb" href="#">Facebook</a>
+							<a class="btn-blue social-btn social-btn-yt" href="#">YouTube</a>
 						</div>
 					</div>
 					<div class="footer-colum">
 						<div class="footer-copyright">
 							<span>Website by</span>
-							<a href="https://htmlacademy.ru">
-								<img src="img/footer-html-academy.png" width="113" height="40" alt="html academy">
-							</a>
+							<a href="https://htmlacademy.ru"></a>
 						</div>
 					</div>
 				</div>
