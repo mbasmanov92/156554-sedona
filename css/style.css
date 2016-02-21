@@ -410,9 +410,8 @@ body
     font-weight: bold;
     line-height: 26px;
 	display: inline-block;
-	margin: 6px 0px;
     float: left;
-
+	margin: 6px 0px;
     text-transform: uppercase;
 }
 
@@ -459,8 +458,20 @@ body
 .index-calendar
 {
     position: absolute;
-
+	right: 10px;
+	top: 10px;
+	width: 21px;
+	height: 22px;
+	border: none;
     background: url('../img/index-calendar-icon.png') no-repeat;
+}
+
+.index-calendar:hover {
+	background: url('../img/index-calendar-icon-hvr.png') no-repeat;
+}
+
+.index-calendar:active {
+	background: url('../img/index-calendar-icon-down.png') no-repeat;
 }
 
 .counter input[type='text'],
@@ -483,9 +494,26 @@ body
 	float: left;
 }
 
+.counter-children {
+	width: 176px;
+	padding-left: 53px;
+}
+
 .counter input[type='text']
 {
     float: none;
+}
+
+.counter-buttons {
+	font-size: 0;
+	float: right;
+}
+
+.counter-buttons button,
+.counter-buttons input[type='text']
+{
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .btn-minus
@@ -542,7 +570,7 @@ body
 
     text-transform: uppercase;
 
-    color: fff;
+    color: #fff;
     border: none;
 }
 
@@ -583,17 +611,40 @@ body
     width: 330px;
 }
 
-.search-form-item
+.hostel-filter-item
 {
     float: left;
     clear: left;
 }
 
-.search-form-item  label
+.hostel-filter-item  label
 {
     float: right;
 
     padding-left: 20px;
+}
+
+.hostel-filter-item input[type='checkbox'] {
+	display: none;
+}
+
+.hostel-filter-item input[type='checkbox'] + label {
+	display: block;
+	margin: 10px 0;
+	line-height: 20px;
+	padding-left: 45px;
+	position: relative;
+}
+
+input[type='checkbox'] + label::before {
+	content: "";
+	display: block;
+	width: 22px;
+	height: 22px;
+	background: url("../img/catalog-checkbox-off.png") no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .hostel-list-title
@@ -703,6 +754,10 @@ body
     min-height: 120px;
 
     background: rgba(255, 255, 255, .9);
+}
+
+.inside-footer {
+	background: #fff;
 }
 
 .footer-colum
@@ -837,7 +892,7 @@ body
     display: inline-block;
 
     width: 113px;
-    height: 40px;
+    height: 39px;
 
     vertical-align: middle;
 
@@ -860,7 +915,7 @@ body
     font-size: 14px;
     font-weight: normal;
     line-height: 26px;
-
+	
     display: inline-block;
 
     vertical-align: middle;

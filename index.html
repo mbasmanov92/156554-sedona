@@ -163,28 +163,28 @@
 								<div class="input-form clearfix">
 									<label for="search-form-input">Дата заезда:</label>
 									<input type="text" id="search-form-input" name="search-form-input" value="24 апреля 2016">
-									<span class="index-calendar"></span>
+									<button type="button" class="index-calendar"></button>
 								</div>
 								<div class="input-form clearfix">
 									<label for="search-form-output">Дата выезда:</label>
 									<input type="text" id="search-form-output" name="search-form-output" value="4 июля 2016">
 									<span class="index-calendar"></span>
-								</div>
+								</div>								
 								<div class="counter clearfix">
 									<label for="adult">Взрослые:</label>
-									
-									<button class="counter-btn btn-minus"></button>
-									<input type="text" id="adult" value="2">							
-									<button class="counter-btn btn-plus"></button>
-									
+									<div class="counter-buttons"> 
+										<button class="counter-btn btn-minus"></button>
+										<input type="text" id="adult" value="2">							
+										<button class="counter-btn btn-plus"></button>
+									</div>
 								</div>
-								<div class="counter clearfix">
+								<div class="counter counter-children clearfix">
 									<label for="children">Дети:</label>
-									
-									<button class="counter-btn btn-minus"></button>
-									<input type="text" id="children" value="0">							
-									<button class="counter-btn btn-plus"></button>
-									
+									<div class="counter-buttons"> 
+										<button class="counter-btn btn-minus"></button>
+										<input type="text" id="children" value="0">							
+										<button class="counter-btn btn-plus"></button>
+									</div>
 								</div>
 								<button class="btn-blue search-btn" type="submit">Найти</button>				
 							</form>
