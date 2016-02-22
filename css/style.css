@@ -49,6 +49,11 @@ body
     margin: 0 auto;
 }
 
+input, button 
+{ 
+	outline: none;
+}
+
 .main-navigation
 {
     font-size: 21px;
