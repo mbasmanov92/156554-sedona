@@ -22,6 +22,7 @@ body
     width: 1200px;
     margin: 0 auto;
 
+    background: #fff;
     box-shadow: 0 0 15px 5px rgba(0, 0, 0, .2);
 }
 
@@ -235,9 +236,7 @@ button
     background-color: #fff;
 }
 
-
-
-.specification .info .info-title
+.specification  .info-title
 {
     font-size: 21px;
     font-weight: bold;
@@ -247,6 +246,21 @@ button
     background-color: #fff;
 }
 
+.first-row,
+.third-row
+{
+    background-color: #81b3d2;
+}
+
+.second-row
+{
+    background-color: #fff;
+}
+
+.fourth-row
+{
+    background-color: #eee;
+}
 
 
 .photo
@@ -396,7 +410,7 @@ button
     line-height: 24px;
 }
 
-.hostel-search .info-title p
+.info-date
 {
     font-size: 24px;
     font-weight: normal;
@@ -536,8 +550,6 @@ button
     background: #f2f2f2;
 }
 
-
-
 .counter
 {
     float: left;
@@ -649,8 +661,7 @@ button
     padding-left: 72px;
 
     color: #fff;
-    background-image: url('../img/catalog-filter-background.jpg');
-    background-repeat: no-repeat;
+    background: #81b3d2 url('../img/catalog-filter-background.jpg') no-repeat;
 }
 
 .hostel-filter legend
@@ -1062,7 +1073,7 @@ span.sorting-title
     background: url('../img/catalog-sorting-up-on.png');
 }
 
-.sorting  .arrow-up .active
+.arrow-up .active
 {
     background: url('../img/catalog-sorting-up-on.png');
 }
@@ -1084,7 +1095,7 @@ span.sorting-title
     background: url('../img/catalog-sorting-down-on.png');
 }
 
-.sorting  .arrow-down.active
+.arrow-down.active
 {
     background: url('../img/catalog-sorting-down-on.png');
 }
@@ -1309,7 +1320,6 @@ span.sorting-title
     vertical-align: middle;
 }
 
-
 .social-btn
 {
     font-size: 0;
@@ -1438,7 +1448,6 @@ span.sorting-title
 {
     background: url('../img/footer-html-academy-down.png');
 }
-
 
 .footer-copyright span
 {
