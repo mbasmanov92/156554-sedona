@@ -218,7 +218,7 @@ input, button
 {
     display: block;
 
-    padding-bottom: 30px;
+    padding-bottom: 27px;
 }
 
 .info p
@@ -267,8 +267,8 @@ input, button
 
 .feature-beside-photo
 {
-    padding-top: 50.5px;
-    padding-bottom: 50.5px;
+    padding-top: 55px;
+    padding-bottom: 50px;
 
     color: #fff;
     background-color: #81b3d2;
@@ -278,21 +278,34 @@ input, button
 {
     display: block;
 
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .feature-with-illustration
 {
-    padding-top: 60px;
-    padding-bottom: 80px;
-
+	padding-bottom: 80px;
     color: #000;
     background: #fff;
 }
 
 .feature-with-illustration .illustration
 {
-    margin-bottom: 32px;
+    margin-bottom: 22px;
+}
+
+.illustration-house
+{
+	margin-top: 60px;
+}
+
+.illustration-burger
+{
+	margin-top: 61px;
+}
+
+.illustration-souvenir
+{
+	margin-top: 57px;
 }
 
 .feature-with-illustration .feature-title
@@ -308,7 +321,7 @@ input, button
 }
 .feature-other
 {
-    padding-top: 50px;
+    padding-top: 47px;
     padding-bottom: 60px;
 
     color: #000;
@@ -319,7 +332,7 @@ input, button
 {
     display: block;
 
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 
 .feature-title
@@ -335,7 +348,7 @@ input, button
     font-weight: normal;
     line-height: 21px;
 
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
 
 .feature-info
@@ -368,6 +381,12 @@ input, button
     margin: 0 auto;
 }
 
+.hostel-search .info 
+{
+	padding-top: 55px;
+	padding-bottom: 44px;
+}
+
 .hostel-search .info-title
 {
     font-size: 30px;
@@ -394,7 +413,7 @@ input, button
     display: block;
 
     width: 548px;
-    padding: 32px 10px;
+    padding: 30px 10px;
 
     text-align: center;
 
@@ -411,7 +430,10 @@ input, button
     position: absolute;
 
     width: 458px;
-    padding: 55px;
+    padding-top: 56px;
+	padding-bottom: 54px;
+	padding-right: 54px;
+	padding-left: 56px;
 
     text-transform: uppercase;
 
@@ -453,10 +475,12 @@ input, button
 
 .input-form input[type='text']
 {
-    width: 286px;
+    width: 291px;
     height: 34px;
     padding-right: 40px;
-    padding-left: 15px;
+    padding-left: 10px;
+	padding-top: 0;
+	padding-bottom: 0;
 
     border: 2px solid #f2f2f2;
     background: #f2f2f2;
@@ -510,18 +534,23 @@ input, button
     background: #f2f2f2;
 }
 
+
+
 .counter
 {
     float: left;
+    margin-bottom: 53px;
+}
 
-    width: 229px;
-    margin-bottom: 55px;
+.counter-adult
+{
+    width: 225px;
 }
 
 .counter-children
 {
-    width: 176px;
-    padding-left: 53px;
+    width: 179px;
+    padding-left: 54px;
 }
 
 .counter input[type='text']
@@ -777,7 +806,8 @@ input, button
     font-weight: 600;
     line-height: 21px;
 
-    margin-bottom: 9px;
+    margin-top: 3px;
+	margin-bottom: 10px;
 }
 
 .price-controls
@@ -786,8 +816,9 @@ input, button
 
     position: relative;
 
-    height: 36px;
+    height: 32px;
     margin-bottom: 20px;
+	margin-left: 13px;
 
     border: 2px solid #fff;
     border-radius: 2px;
@@ -811,7 +842,8 @@ input, button
 .price-controls label
 {
     font-size: 14px;
-    line-height: 38px;
+    line-height: 21px;
+	font-weight: normal;
 
     display: inline-block;
 
@@ -819,11 +851,18 @@ input, button
     vertical-align: top;
 }
 
-.price-controls .min-price,
-.price-controls .max-price
+.price-controls .min-price
 {
     width: 90px;
     padding-left: 65px;
+	padding-top: 5px;
+}
+
+.price-controls .max-price
+{
+	width: 90px;
+    padding-left: 55px;
+	padding-top: 5px;
 }
 
 .price-controls input
@@ -844,6 +883,7 @@ input, button
     position: relative;
 
     margin-bottom: 32px;
+	margin-left: 15px;
 }
 
 .range-controls .scale
@@ -895,12 +935,13 @@ input, button
 .btn-transparent
 {
     font-size: 14px;
+	font-weight: normal;
     line-height: 20px;
 
     display: block;
 
-    margin: 0 auto;
-    padding: 6px 35px;
+	margin-left: 98px;
+    padding: 6px 32px;
 
     cursor: pointer;
     text-transform: uppercase;
@@ -932,7 +973,7 @@ input, button
 
 .hostel-list-title span
 {
-    padding-right: 50px;
+    padding-right: 42px;
 }
 
 .sorting
@@ -943,12 +984,13 @@ input, button
 
     display: inline-block;
 
-    width: 882px;
+    width: 890px;
 }
 
-.sorting-title
+span.sorting-title
 {
-    padding-right: 40px;
+    margin-right: 36px;
+	padding-right: 0;
 }
 
 .sorting a
@@ -1002,7 +1044,7 @@ input, button
 
 .sorting  .arrow-up
 {
-    margin-right: 11px;
+    margin-right: 10px;
 
     background: url('../img/catalog-sorting-up-off.png');
 }
@@ -1046,8 +1088,10 @@ input, button
 
 .hostel-list-item
 {
-    padding: 30px 72px;
-
+	padding-top: 25px;
+	padding-bottom: 22px;
+	padding-right: 72px;
+	padding-left: 72px;
     border-bottom: 1px solid #e5e5e5;
     background: #fff;
 }
@@ -1055,6 +1099,7 @@ input, button
 .hostel-list-item a
 {
     float: left;
+	margin-top: 5px;
 }
 
 .hostel-list-info
@@ -1074,8 +1119,8 @@ input, button
     display: block;
     float: left;
     clear: right;
-
-    margin-bottom: 12px;
+	margin-top: 0;
+    margin-bottom: 8px;
 
     color: #000;
 }
@@ -1104,7 +1149,7 @@ input, button
     display: block;
 
     margin-right: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 
     color: #333;
 }
@@ -1121,10 +1166,11 @@ input, button
     font-size: 14px;
     font-weight: bold;
     line-height: 21px;
-
+	min-height: 23px;
+	padding-top: 3px;
     width: 110px;
     margin-right: 6px;
-
+	
     text-align: center;
 
     color: #fff;
@@ -1145,7 +1191,8 @@ input, button
     font-size: 14px;
     font-weight: bold;
     line-height: 21px;
-
+	min-height: 23px;
+	padding-top: 3px;
     width: 142px;
 
     text-align: center;
@@ -1171,8 +1218,12 @@ input, button
 .rating-star
 {
     float: right;
-
+	margin-top: 5px;
     margin-bottom: 37px;
+}
+
+.rating-star img {
+	padding-left: 2px;
 }
 
 .rating-number
@@ -1185,8 +1236,8 @@ input, button
     clear: right;
 
     width: 111px;
-    height: 27px;
-
+    min-height: 24px;
+	padding-top: 3px;
     text-align: center;
 
     color: #666;
@@ -1256,7 +1307,7 @@ input, button
 
     width: 46px;
     height: 48px;
-    margin: 0 3px;
+    margin: 0 2px;
 
     vertical-align: middle;
     text-decoration: none;
