@@ -49,9 +49,10 @@ body
     margin: 0 auto;
 }
 
-input, button 
-{ 
-	outline: none;
+input,
+button
+{
+    outline: none;
 }
 
 .main-navigation
@@ -283,7 +284,8 @@ input, button
 
 .feature-with-illustration
 {
-	padding-bottom: 80px;
+    padding-bottom: 80px;
+
     color: #000;
     background: #fff;
 }
@@ -295,17 +297,17 @@ input, button
 
 .illustration-house
 {
-	margin-top: 60px;
+    margin-top: 60px;
 }
 
 .illustration-burger
 {
-	margin-top: 61px;
+    margin-top: 61px;
 }
 
 .illustration-souvenir
 {
-	margin-top: 57px;
+    margin-top: 57px;
 }
 
 .feature-with-illustration .feature-title
@@ -381,10 +383,10 @@ input, button
     margin: 0 auto;
 }
 
-.hostel-search .info 
+.hostel-search .info
 {
-	padding-top: 55px;
-	padding-bottom: 44px;
+    padding-top: 55px;
+    padding-bottom: 44px;
 }
 
 .hostel-search .info-title
@@ -431,9 +433,9 @@ input, button
 
     width: 458px;
     padding-top: 56px;
-	padding-bottom: 54px;
-	padding-right: 54px;
-	padding-left: 56px;
+    padding-right: 54px;
+    padding-bottom: 54px;
+    padding-left: 56px;
 
     text-transform: uppercase;
 
@@ -477,10 +479,10 @@ input, button
 {
     width: 291px;
     height: 34px;
+    padding-top: 0;
     padding-right: 40px;
+    padding-bottom: 0;
     padding-left: 10px;
-	padding-top: 0;
-	padding-bottom: 0;
 
     border: 2px solid #f2f2f2;
     background: #f2f2f2;
@@ -539,6 +541,7 @@ input, button
 .counter
 {
     float: left;
+
     margin-bottom: 53px;
 }
 
@@ -807,7 +810,7 @@ input, button
     line-height: 21px;
 
     margin-top: 3px;
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .price-controls
@@ -818,7 +821,7 @@ input, button
 
     height: 32px;
     margin-bottom: 20px;
-	margin-left: 13px;
+    margin-left: 13px;
 
     border: 2px solid #fff;
     border-radius: 2px;
@@ -842,8 +845,8 @@ input, button
 .price-controls label
 {
     font-size: 14px;
+    font-weight: normal;
     line-height: 21px;
-	font-weight: normal;
 
     display: inline-block;
 
@@ -854,15 +857,15 @@ input, button
 .price-controls .min-price
 {
     width: 90px;
+    padding-top: 5px;
     padding-left: 65px;
-	padding-top: 5px;
 }
 
 .price-controls .max-price
 {
-	width: 90px;
+    width: 90px;
+    padding-top: 5px;
     padding-left: 55px;
-	padding-top: 5px;
 }
 
 .price-controls input
@@ -883,7 +886,7 @@ input, button
     position: relative;
 
     margin-bottom: 32px;
-	margin-left: 15px;
+    margin-left: 15px;
 }
 
 .range-controls .scale
@@ -935,12 +938,12 @@ input, button
 .btn-transparent
 {
     font-size: 14px;
-	font-weight: normal;
+    font-weight: normal;
     line-height: 20px;
 
     display: block;
 
-	margin-left: 98px;
+    margin-left: 98px;
     padding: 6px 32px;
 
     cursor: pointer;
@@ -990,7 +993,7 @@ input, button
 span.sorting-title
 {
     margin-right: 36px;
-	padding-right: 0;
+    padding-right: 0;
 }
 
 .sorting a
@@ -1088,10 +1091,11 @@ span.sorting-title
 
 .hostel-list-item
 {
-	padding-top: 25px;
-	padding-bottom: 22px;
-	padding-right: 72px;
-	padding-left: 72px;
+    padding-top: 25px;
+    padding-right: 72px;
+    padding-bottom: 22px;
+    padding-left: 72px;
+
     border-bottom: 1px solid #e5e5e5;
     background: #fff;
 }
@@ -1099,7 +1103,8 @@ span.sorting-title
 .hostel-list-item a
 {
     float: left;
-	margin-top: 5px;
+
+    margin-top: 5px;
 }
 
 .hostel-list-info
@@ -1119,7 +1124,8 @@ span.sorting-title
     display: block;
     float: left;
     clear: right;
-	margin-top: 0;
+
+    margin-top: 0;
     margin-bottom: 8px;
 
     color: #000;
@@ -1166,11 +1172,12 @@ span.sorting-title
     font-size: 14px;
     font-weight: bold;
     line-height: 21px;
-	min-height: 23px;
-	padding-top: 3px;
+
     width: 110px;
+    min-height: 23px;
     margin-right: 6px;
-	
+    padding-top: 3px;
+
     text-align: center;
 
     color: #fff;
@@ -1191,9 +1198,10 @@ span.sorting-title
     font-size: 14px;
     font-weight: bold;
     line-height: 21px;
-	min-height: 23px;
-	padding-top: 3px;
+
     width: 142px;
+    min-height: 23px;
+    padding-top: 3px;
 
     text-align: center;
 
@@ -1218,12 +1226,14 @@ span.sorting-title
 .rating-star
 {
     float: right;
-	margin-top: 5px;
+
+    margin-top: 5px;
     margin-bottom: 37px;
 }
 
-.rating-star img {
-	padding-left: 2px;
+.rating-star img
+{
+    padding-left: 2px;
 }
 
 .rating-number
@@ -1237,7 +1247,8 @@ span.sorting-title
 
     width: 111px;
     min-height: 24px;
-	padding-top: 3px;
+    padding-top: 3px;
+
     text-align: center;
 
     color: #666;
