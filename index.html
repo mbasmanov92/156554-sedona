@@ -5,7 +5,7 @@
 		<title>HTML Academy: Седона</title>
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:700,400&subset=latin,cyrillic" rel='stylesheet' type='text/css'>
 		<link href="css/normalize-min.css" rel="stylesheet">
-		<link href="css/style-min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="shadow-container">
@@ -190,7 +190,7 @@
 							</form>
 						</div>
 					</div>
-					<div class="index-map"></div>
+					<div id="map-canvas" class="index-map"></div>
 				</div>
 			</main>
 			<footer class="main-footer">
@@ -216,5 +216,35 @@
 				</div>
 			</footer>
 		</div>
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<script>
+			var map_canvas = document.getElementById("map-canvas");
+
+			if (map_canvas) {
+			if (map_canvas.classList.contains("no-script-map")) {
+			map_canvas.classList.remove("no-script-map");
+			}
+			var map_options = {
+			center: new google.maps.LatLng(34.88, -111.76),
+			zoom: 9,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+			var map = new google.maps.Map(map_canvas, map_options);
+			var marker = new google.maps.Marker({
+			position: new google.maps.LatLng(34.88, -111.76),
+			map: map
+			});
+			}
+		</script>
+		<script>
+			var link = document.querySelector(".search-form-title");
+			
+			var popup = document.querySelector(".search-form-container");
+			
+			link.addEventListener("click", function(event) {
+			event.preventDefault();
+			popup.classList.toggle(".search-form-visible");
+			});
+		</script>
 	</body>
 </html>
