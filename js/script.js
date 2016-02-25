@@ -22,3 +22,4 @@ var map_canvas = document.getElementById("map-canvas");
 			event.preventDefault();
 			popup.classList.toggle("search-form-visible");
 			});
+			
